@@ -30,3 +30,14 @@ Based on the underscore.js type checking functions.
 ## Tests
 
     npm test
+
+## Change Log
+
+### 0.1.3
+
+* Update `repo` in `component.json`.
+
+### 0.1.2
+
+* Initial refactor/tests.
+* Rename `is#function` to `is#Function.
