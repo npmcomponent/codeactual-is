@@ -1,4 +1,6 @@
+/*jshint globalstrict: true*/
 "use strict";
+
 var each = require('each'),
     toString = Object.prototype.toString,
     types = ['Arguments', 'Function', 'String', 'Number', 'Date', 'RegExp', 'Array'];
