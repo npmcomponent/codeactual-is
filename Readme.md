@@ -1,22 +1,30 @@
 # is
 
-  is is a type checking component
+  `is` is a type checking component
 
 ## Installation
 
 ```
-$ component install manuelstofer/is
+$ component install codeactual/is
 ```
 
 ## API
 
 - is.array
 - is.arguments
-- is.function
+- is.Function
 - is.string
 - is.number
 - is.date
 - is.regexp
 - is.object
 
-based on the underscore.js type checking functions
+Based on the underscore.js type checking functions.
+
+## License
+
+  MIT
+
+# Tests
+
+    npm test
