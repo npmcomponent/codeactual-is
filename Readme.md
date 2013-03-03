@@ -2,6 +2,8 @@
 
   `is` is a type checking component
 
+[![Build Status](https://travis-ci.org/codeactual/is.png)](https://travis-ci.org/codeactual/is)
+
 ## Installation
 
 ```
