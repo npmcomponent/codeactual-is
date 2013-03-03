@@ -1,4 +1,4 @@
-/*jshint globalstrict: true*/
+/*jshint node:true*/
 "use strict";
 
 var each = require('each'),
