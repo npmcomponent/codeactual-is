@@ -27,6 +27,6 @@ Based on the underscore.js type checking functions.
 
   MIT
 
-# Tests
+## Tests
 
     npm test
