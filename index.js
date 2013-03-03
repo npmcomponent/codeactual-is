@@ -4,7 +4,8 @@ var each = require('each'),
     types = ['Arguments', 'Function', 'String', 'Number', 'Date', 'RegExp', 'Array'];
 
 each(types, function (type) {
-    module.exports[type.toLowerCase()] = function (obj) {
+    var method = type === 'Function' ? type : type.toLowerCase();
+    module.exports[method] = function (obj) {
         return toString.call(obj) === '[object ' + type + ']';
     };
 });
