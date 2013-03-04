@@ -13,12 +13,10 @@
     "url": "https://github.com/codeactual/is/issues"
   },
   "license": "MIT",
-  "repository": [
-    {
+  "repository": {
       "type": "git",
       "url": "https://codeactual@github.com/codeactual/is.git"
-    }
-  ],
+  },
   "peerDependencies": {
     "component": ">= 0.13.0"
   },
