@@ -1,6 +1,6 @@
 {
   "name": "codeactual-is",
-  "description": "type checking: is.array, is.arguments, is.Function, is.string, is.number, is.date, is.regexp, is.object",
+  "description": "Type checking functions based on underscore.js",
   "version": "0.1.2",
   "keywords": ["isArray", "isArguments", "isFunction", "isString", "isNumber", "isDate", "isRegExp", "isObject"],
   "contributors": [

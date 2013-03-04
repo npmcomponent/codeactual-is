@@ -1,6 +1,6 @@
 # is
 
-  `is` is a type checking component
+  Type checking functions based on underscore.js
 
 [![Build Status](https://travis-ci.org/codeactual/is.png)](https://travis-ci.org/codeactual/is)
 
