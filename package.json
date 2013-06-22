@@ -2,7 +2,16 @@
   "name": "codeactual-is",
   "description": "Type checking functions based on underscore.js",
   "version": "0.1.2",
-  "keywords": ["isArray", "isArguments", "isFunction", "isString", "isNumber", "isDate", "isRegExp", "isObject"],
+  "keywords": [
+    "isArray",
+    "isArguments",
+    "isFunction",
+    "isString",
+    "isNumber",
+    "isDate",
+    "isRegExp",
+    "isObject"
+  ],
   "contributors": [
     {
       "name": "David Smith",
@@ -14,13 +23,16 @@
   },
   "license": "MIT",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/codeactual/is.git"
+    "type": "git",
+    "url": "https://github.com/codeactual/is.git"
   },
   "devDependencies": {
     "component": "~0.13.0"
   },
   "scripts": {
     "test": "make build && node test"
+  },
+  "devdir-ci": {
+    "version": 1
   }
 }
