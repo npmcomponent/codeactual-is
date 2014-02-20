@@ -1,7 +1,7 @@
 /*jshint node:true*/
 "use strict";
 
-var each = require('each');
+var each = require('manuelstofer-each');
 var types = ['Arguments', 'Function', 'String', 'Number', 'Date', 'RegExp', 'Array'];
 
 each(types, function (type) {

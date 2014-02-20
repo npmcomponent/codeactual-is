@@ -1,7 +1,7 @@
 {
   "name": "codeactual-is",
   "description": "Type checking functions based on underscore.js",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "keywords": [
     "isArray",
     "isArguments",
@@ -12,27 +12,7 @@
     "isRegExp",
     "isObject"
   ],
-  "contributors": [
-    {
-      "name": "David Smith",
-      "web": "https://github.com/codeactual/"
-    }
-  ],
-  "bugs": {
-    "url": "https://github.com/codeactual/is/issues"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/codeactual/is.git"
-  },
-  "devDependencies": {
-    "component": "~0.13.0"
-  },
-  "scripts": {
-    "test": "make build && node test"
-  },
-  "devdir-ci": {
-    "version": 1
+  "dependencies": {
+    "manuelstofer-each": "git://github.com/npmcomponent/manuelstofer-each.git"
   }
 }
